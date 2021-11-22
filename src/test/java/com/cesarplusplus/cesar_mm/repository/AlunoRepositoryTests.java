@@ -15,13 +15,11 @@ public class AlunoRepositoryTests {
 	public void inserir() {
 		Aluno a1 = new Aluno();
 		a1.setId(null);
-		a1.setNome("Bernardo");
-		a1.setSobrenome("Queiroz");	
+		a1.setNomeCompleto("Bernardo");
 		
 		Aluno a2 = new Aluno();
 		a2.setId(null);
-		a2.setNome("Maria");
-		a2.setSobrenome("Clara");
+		a2.setNomeCompleto("Maria");
 		
 		alunoRepository.save(a1);
 		alunoRepository.save(a2);

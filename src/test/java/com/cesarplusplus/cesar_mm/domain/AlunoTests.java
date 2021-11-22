@@ -9,7 +9,6 @@ public class AlunoTests {
 	@Test
 	public void cadastar() {
 		Aluno a = new Aluno();
-		a.setNome("Bernardo");
-		a.setSobrenome("Queiroz");
+		a.setNomeCompleto("Bernardo");
 	}
 }

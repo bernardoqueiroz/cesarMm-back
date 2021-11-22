@@ -17,10 +17,7 @@ public class Aluno {
 	private Short id;
 	
 	@Column(length = 20, nullable = false)
-	private String nome;
-	
-	@Column(length = 50, nullable = false)
-	private String sobrenome;
+	private String nomeCompleto;
 
 	@Column(length = 20, nullable = false)
 	private String username;
