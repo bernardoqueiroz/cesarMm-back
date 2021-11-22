@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.cesarplusplus</groupId>
-	<artifactId>cesar_mm</artifactId>
+	<artifactId>cesarMm-back</artifactId>
 	<version>0.1.0</version>
-	<name>cesar_mm</name>
+	<name>cesarMm-back</name>
 	<description>Projeto back cesar++</description>
 	<properties>
 		<java.version>11</java.version>
