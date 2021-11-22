@@ -10,7 +10,7 @@ import lombok.Data;
 
 @Data
 @Entity
-public class Aluno {
+public class Professor {
 	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -31,8 +31,7 @@ public class Aluno {
 	@Column(length = 50, nullable = false)
 	private String senha;
 
-	//private Short turmaId; //Fazer Relação entre a tabela Aluno e turma ManyToMany
-
+	//private Short turmaId; //Fazer Relação entre a tabela Professor e turma ManyToMany
 
 }
 
